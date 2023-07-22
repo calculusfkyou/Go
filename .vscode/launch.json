@@ -1,0 +1,124 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "scan",
+        "request": "launch",
+        "mainClass": "scan",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "UVA10055",
+        "request": "launch",
+        "mainClass": "UVA10055",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "Method",
+        "request": "launch",
+        "mainClass": "Method",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "loop",
+        "request": "launch",
+        "mainClass": "loop",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "array",
+        "request": "launch",
+        "mainClass": "array",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "symbol",
+        "request": "launch",
+        "mainClass": "symbol",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "StatusChange",
+        "request": "launch",
+        "mainClass": "StatusChange",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "string",
+        "request": "launch",
+        "mainClass": "string",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "declare",
+        "request": "launch",
+        "mainClass": "declare",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "test",
+        "request": "launch",
+        "mainClass": "test",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "type": "java",
+        "name": "AES",
+        "request": "launch",
+        "mainClass": "AES",
+        "projectName": "GitHub_8c57a89b"
+      },
+      {
+        "name": "g++.exe build and debug active file",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "g++.exe build active file"
+      },
+      {
+        "name": "g++ build & run active file",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "g++ build & run active file"
+      }
+    ]
+  }
